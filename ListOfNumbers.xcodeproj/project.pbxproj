@@ -12,6 +12,10 @@
 		AEFC7BCB2249865F00482B34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFC7BC92249865F00482B34 /* Main.storyboard */; };
 		AEFC7BCD2249866200482B34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFC7BCC2249866200482B34 /* Assets.xcassets */; };
 		AEFC7BD02249866200482B34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFC7BCE2249866200482B34 /* LaunchScreen.storyboard */; };
+		AEFC7BD8224A415900482B34 /* NumbersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC7BD7224A415900482B34 /* NumbersListView.swift */; };
+		AEFC7BDA224A542900482B34 /* NumberListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC7BD9224A542900482B34 /* NumberListDelegate.swift */; };
+		AEFC7BDC224FA02900482B34 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC7BDB224FA02900482B34 /* HttpRequest.swift */; };
+		AEFC7BDE224FC8D600482B34 /* Igulad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC7BDD224FC8D600482B34 /* Igulad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		AEFC7BCC2249866200482B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEFC7BCF2249866200482B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEFC7BD12249866200482B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFC7BD7224A415900482B34 /* NumbersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersListView.swift; sourceTree = "<group>"; };
+		AEFC7BD9224A542900482B34 /* NumberListDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberListDelegate.swift; sourceTree = "<group>"; };
+		AEFC7BDB224FA02900482B34 /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		AEFC7BDD224FC8D600482B34 /* Igulad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Igulad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 			children = (
 				AEFC7BC42249865F00482B34 /* ListOfNumbers */,
 				AEFC7BC32249865F00482B34 /* Products */,
+				AEFC7BC92249865F00482B34 /* Main.storyboard */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +65,10 @@
 			children = (
 				AEFC7BC52249865F00482B34 /* AppDelegate.swift */,
 				AEFC7BC72249865F00482B34 /* ViewController.swift */,
-				AEFC7BC92249865F00482B34 /* Main.storyboard */,
+				AEFC7BD7224A415900482B34 /* NumbersListView.swift */,
+				AEFC7BD9224A542900482B34 /* NumberListDelegate.swift */,
+				AEFC7BDB224FA02900482B34 /* HttpRequest.swift */,
+				AEFC7BDD224FC8D600482B34 /* Igulad.swift */,
 				AEFC7BCC2249866200482B34 /* Assets.xcassets */,
 				AEFC7BCE2249866200482B34 /* LaunchScreen.storyboard */,
 				AEFC7BD12249866200482B34 /* Info.plist */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEFC7BD8224A415900482B34 /* NumbersListView.swift in Sources */,
+				AEFC7BDE224FC8D600482B34 /* Igulad.swift in Sources */,
 				AEFC7BC82249865F00482B34 /* ViewController.swift in Sources */,
+				AEFC7BDC224FA02900482B34 /* HttpRequest.swift in Sources */,
 				AEFC7BC62249865F00482B34 /* AppDelegate.swift in Sources */,
+				AEFC7BDA224A542900482B34 /* NumberListDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
